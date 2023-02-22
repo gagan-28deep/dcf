@@ -1,0 +1,33 @@
+.facility-blood-wrapper{
+  background-color: rgb(244, 244, 244);
+  margin-top: 1rem;
+}
+.facility-blood-header {
+  color: rgb(96, 186, 92);
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.facilities {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.facility-blood-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid purple;
+  border-radius: 10px;
+  box-shadow: 5px 10px 18px rgb(190, 235, 190);
+  width: 25%;
+}
+
+.facility-blood-image {
+  height: 10vh;
+  padding: 1rem;
+}
+
+.facility-blood-text {
+  font-weight: 700;
+  font-size: 1.2rem;
+}

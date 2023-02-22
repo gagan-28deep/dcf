@@ -1,0 +1,30 @@
+h2 {
+  margin-top: 5rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color:  rgb(96, 186, 92);
+}
+.labs {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid gray; */
+  margin-top: 5rem;
+}
+.labs-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid purple;
+  border-radius: 10px;
+  box-shadow: 5px 10px 18px rgb(190, 235, 190);
+  width: 25%;
+}
+.labs-image {
+  height: 10vh;
+  padding: 1rem;
+}
+.labs-text {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+}

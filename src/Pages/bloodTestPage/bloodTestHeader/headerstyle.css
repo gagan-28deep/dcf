@@ -1,0 +1,60 @@
+.header-image {
+  width: 90%;
+  height: 40vh;
+}
+.blood-header-title {
+  position: relative;
+  right: 35rem;
+  bottom: 25rem;
+}
+.header-text {
+  position: relative;
+  right: 35rem;
+  bottom: 20rem;
+  font-size: larger;
+}
+.input-form {
+  display: flex;
+  justify-content: center;
+  border: 1px dashed saddlebrown;
+  position: relative;
+  bottom: 15rem;
+}
+.input-content {
+  padding: 1rem 5rem 1rem 5rem;
+  margin: 1rem;
+}
+.blood-header-btn {
+  background-color: #4caf50; /* Set background color */
+  border: none; /* Remove border */
+  color: white; /* Set text color */
+  padding: 10px 20px; /* Set padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Display as inline block */
+  font-size: 16px; /* Set font size */
+  margin: 10px 5px; /* Set margin */
+  cursor: pointer; /* Add cursor on hover */
+  border-radius: 5px; /* Add rounded corners */
+  position: relative;
+  right: 32rem;
+  bottom: 15rem;
+  padding: 1rem 5rem;
+}
+.blood-header-btn:hover {
+  background-color: #3e8e41; /* Darken background on hover */
+}
+
+.blood-content-wrapper{
+    display: flex;
+    position: relative;
+    left: 80rem;
+    bottom: 30rem;
+}
+.blood-content{
+    padding: 1rem;
+    border: 1px solid purple;
+    margin-left: 1rem;
+    font-size: larger;
+    border-radius: 10px;
+}

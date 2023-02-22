@@ -1,0 +1,27 @@
+.labs-test-wrapper {
+  margin-top: 8rem;
+}
+.labs-test-header {
+  font-size: 3rem;
+  color: rgb(128, 90, 22);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.labs-tests {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.labs-content-test {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid purple;
+  border-radius: 10px;
+  box-shadow: 5px 10px 18px rgb(190, 235, 190);
+  width: 25%;
+  height: 35%;
+}

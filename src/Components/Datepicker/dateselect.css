@@ -1,0 +1,22 @@
+.selectdate {
+  width: 100% !important;
+  height: 2.5rem !important;
+  border-radius: 5px !important;
+  text-align: left !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: left !important;
+  padding-left: 10px;
+}
+
+.success {
+  border: 1px solid #b3b9bc !important;
+}
+
+.error {
+  border: 1px solid #DC3545 !important;
+}
+
+.react-datepicker-ignore-onclickoutside {
+  border-color: #b3b9bc !important;
+}

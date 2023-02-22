@@ -1,0 +1,85 @@
+.stepcard {
+  text-align: left !important;
+  min-height: 120px !important;
+  position: relative !important;
+  margin-top: 10px !important;
+}
+
+.hovercard {
+  background-image: url('../../Assets/images/home\ page/youtube.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1020;
+  left: 18%;
+  /* height: 100%; */
+  top: 0%;
+  right: 35%;
+  bottom: 35%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* width: 100%; */
+  transform: translate(50%, 50%);
+}
+
+.stepcardnumber {
+  color: #ffffff;
+  text-align: center !important;
+  height: 45px;
+  padding: 0px;
+  margin: 0px;
+  width: 45px;
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+  position: absolute !important;
+  left: 14px !important;
+  top: -26px !important;
+  /* bottom: 20px !important; */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+
+.card-header {
+  background: #e3f0dc;
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: #76b757;
+  --bs-btn-border-color: #76b757;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #76b757;
+  --bs-btn-hover-border-color: #76b757;
+  --bs-btn-focus-shadow-rgb: 108, 117, 125;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #76b757;
+  --bs-btn-active-border-color: #76b757;
+  --bs-btn-active-shadow: inset 0 3px 5pxrgba (0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #76b757;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #76b757;
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1080px) {
+  .stepcard {
+    min-height: 210px !important;
+  }
+
+}
+
+@media screen and (max-width:740px) {
+  .hovercard {
+    background-image: url('../../Assets/images/home\ page/youtube.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1020;
+    left: 0%;
+    /* height: 100%; */
+    top: 0%;
+    right: 35%;
+    bottom: 35%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* width: 100%; */
+    transform: translate(50%, 50%);
+  }
+}

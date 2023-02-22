@@ -1,0 +1,63 @@
+.homecontainer {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  position: relative !important;
+}
+
+.homesearchbar {
+  position: absolute !important;
+  left: 20% !important;
+  width: 60% !important;
+  margin: 5% auto !important;
+}
+
+/* 
+.homefeture {
+  width: 90% !important;
+  margin: 50px auto !important;
+  border: 0 !important;
+} */
+
+.containerSpace {
+  width: 92% !important;
+  margin: 0px auto !important;
+}
+
+.homespecialist {
+  /* width: 100% !important;
+  margin: 50px auto !important; */
+  border: 1px solid;
+  border-color: #eeeeee;
+  -webkit-box-shadow: 3px 4px 5px 0px rgba(238, 238, 238, 1);
+  -moz-box-shadow: 3px 4px 5px 0px rgb(72, 61, 61);
+  box-shadow: 3px 4px 5px 0px rgba(238, 238, 238, 1);
+}
+
+.normalCard {
+  /* /* width: 100% !important; */
+  margin: 50px auto !important;
+  width: 95% !important;
+  border: none !important;
+}
+
+.bannerimg {
+  background-image: url('../../Assets/images/home page/Banner-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cardTitles {
+  font-size: 30px
+}
+
+@media screen and (max-width:740px) {
+  .cardTitles {
+    font-size: 22px
+  }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1080px) {}

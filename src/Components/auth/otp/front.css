@@ -1,0 +1,64 @@
+/* .adminpageloginpage {
+  height: 100vh !important;
+} */
+.logindiv {
+  width: 70% !important;
+  margin: 20px auto !important;
+}
+
+.adminloginbanner {
+  position: relative;
+  /* top: 0%; */
+  height: 450px;
+  width: 450px;
+}
+
+.otpinput {
+  width: 80px !important;
+  height: 56px !important;
+  margin-right: 10px;
+  background-color: #F0F1F2 !important;
+  border: 1px solid #F0F1F2 !important;
+  border-radius: 8px !important;
+}
+
+.otpfocus:focus-visible {
+  border: 2px solid #76B757 !important;
+  outline-offset: none !important;
+  outline: none !important;
+}
+
+:focus-visible {
+  outline: none !important;
+}
+
+.otperror {
+  border-color: rgb(211, 47, 47) !important;
+}
+
+.containerotp {
+  justify-content: center !important;
+
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+  .logindiv {
+    width: 100% !important;
+  }
+
+  .adminloginbanner {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .logindiv {
+    width: 100% !important;
+  }
+
+  .adminloginbanner {
+    height: 300px;
+    width: 300px;
+  }
+}

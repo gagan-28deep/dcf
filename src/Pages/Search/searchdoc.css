@@ -1,0 +1,25 @@
+.searchpage {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.searchpageconatianer {
+  width: 70% !important;
+  margin: auto !important;
+  height: 100% !important;
+}
+
+.cardcontainter {
+  margin: 10% auto !important;
+}
+
+@media screen and (max-width:740px) {
+  .searchpageconatianer {
+    width: 100% !important;
+    margin: auto !important;
+    height: 100% !important;
+  }
+
+}

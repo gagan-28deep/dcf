@@ -1,0 +1,36 @@
+.blood-heading {
+  margin-top: 7rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: rgb(96, 186, 92);
+}
+.blood-list {
+  display: flex;
+  /* flex-wrap: wrap; */
+  padding: 3rem;
+  justify-content: space-around;
+}
+
+.blood-card {
+  width: 20vw;
+  margin: 1rem;
+  /* color: white; */
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid purple;
+}
+
+.blood-title {
+  /* position: absolute; */
+  /* top: 1rem;
+  left: 1rem; */
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  background-color: lightgray;
+}
+.blood-tests {
+}
+
+.blood-price{
+  text-decoration: line-through;
+}
